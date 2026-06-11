@@ -8,6 +8,7 @@ Claude Code [Skills](https://docs.claude.com/en/docs/claude-code/skills) for too
 |---|---|
 | [`stencil`](skills/stencil/) | Building Go CLIs with [`github.com/bgrewell/stencil`](https://github.com/bgrewell/stencil) — command/subcommand trees, typed flags, console UI spinners, build-time version injection, and the `stencil` versioning dev-CLI. |
 | [`dart`](skills/dart/) | Authoring & running [DART](https://github.com/bgrewell/dart) test suites — YAML nodes (local/ssh/docker/lxd), setup/teardown steps, `execute` tests with `exit_code`/`match`/`contains` assertions, node-facts templating, multi-node expansion, and `!!load_from` layout. |
+| [`usage`](skills/usage/) | Go CLI flag parsing & grouped help output with [`github.com/bgrewell/usage`](https://github.com/bgrewell/usage) — typed options, option groups, positional args, app/version metadata, and colored auto-generated usage text (a thin wrapper over stdlib `flag`). |
 
 ## Installing a skill
 
